@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "baseUrl": "./src/**/*",
+    // "baseUrl": "src", //this line from gpt
     "module": "NodeNext",
     "jsx": "react-jsx"
   },
-  "include": ["./src"],
-  "exclude": ["./node_modules", "./public"]
+  "exclude": [
+    "./node_modules",
+    "./public"
+  ]
 }
